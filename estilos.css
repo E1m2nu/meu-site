@@ -1,0 +1,113 @@
+
+
+/* sobre.css */
+
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #eaeaea;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1c1c1c;
+    color: #f7b731;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #eaeaea;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+/* Estilo do conteúdo principal */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.main-content section {
+    flex: 1;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.main-content section h2 {
+    font-size: 2rem;
+    color: #f7b731;
+    margin-bottom: 20px;
+}
+
+.main-content section p {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+/* Seção sobre os personagens */
+.characters {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.character {
+    background-color: #333;
+    flex: 1 1 calc(33% - 20px);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.character img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.character h3 {
+    color: #f7b731;
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1c1c1c;
+    color: #f7b731;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 5px solid #eaeaea;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Estilos para links */
+a {
+    color: #f7b731;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaeaea;
+}
